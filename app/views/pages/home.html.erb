@@ -1,0 +1,18 @@
+<p> users </p>
+<% @users.each do |user| %>
+<%= user.name %>
+<% end %>
+
+<p> cats </p>
+
+<% @cats.each do |cat| %>
+<%= cat.name %>
+<%= cat.meow %>
+<% end %>
+
+<p> todos </p>
+
+<% @todos.each do |todo| %>
+<%= todo.tasks %>
+<%= todo.finished %>
+<% end %>
